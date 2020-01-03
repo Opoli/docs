@@ -246,6 +246,7 @@ After the review page, and the customer confirms to book the reservation, the cl
 | `deviceType` | Possible values: `android` / `ios` / `ww` |
 
 ### The Leg Object
+
 | Property | Description |
 | --- | --- |
 | `pickup` | An object containing pickup location information |
@@ -270,6 +271,7 @@ After the review page, and the customer confirms to book the reservation, the cl
 | `travelInsurance` | Called the Rider Fee, it is a value from the quotation object |
 
 ### The Payment Object
+
 | Property | Description |
 | --- | --- |
 | `cardID` | The credit card ID that the customer wants to use |
@@ -624,6 +626,7 @@ At any endpoint, the platform may respond with an error object. This can be dect
 | `error` | The error object |
 
 ### Error Infromation
+
 | Property | Description |
 | --- | --- |
 | `code` | The platform error code |
