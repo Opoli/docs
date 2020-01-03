@@ -4,6 +4,7 @@
 
 ## Authentication
 ### Request
+
 | Property | Description |
 | --- | --- |
 | `email` | The client application email |
@@ -24,9 +25,11 @@
 If the response contains an ID, the authentication  is successful, and the `device` string in the request can now be used in further requests.
 
 The other fields are just the application information and can be ignored.
+
 | Property | Description |
 | --- | --- |
 | `ID` | The client application ID |
+
 ```
 {
   "ID": 1,
