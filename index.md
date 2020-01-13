@@ -615,6 +615,60 @@ This also requires the **token**, same as when initially booking the reservation
 
 The response object is the same structure as retrieving the reservation information (See previous section).
 
+----
+
+## Getting Cancellation Fee for a Reservation
+
+We should first get the cancellation fee and display it to the customer, and ask for confirmation. This should be done before the actual cancellation endpoint.
+
+### Request
+
+```
+GET /1.1/me/reservations/<RSVPID>/cancel?token=<TOKEN>
+
+e.g. /1.1/me/reservations/345678/cancel?token=VND-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+```
+
+### Response
+```
+{
+  "amount": "5",
+}
+```
+
+----
+
+## Cancelling a Reservation
+
+### Request
+```
+POST /1.1/me/reservations/32083/cancel
+```
+```
+{
+  "token": "VND-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "brandId": 0,
+  "reason": ""
+}
+```
+
+| Property | Description |
+| --- | --- |
+| `token` | The **token** which was submitted during authentication |
+| `brandId` | The brand (app or website) from which the customer is cancelling from |
+| `reason` | A text on the customer's reason for cancelling |
+
+### Response
+
+The following example response is a trimmed down version, where only the important information and shown. The staging and production APIs may give more data, but is still using the same structure.
+
+```
+{
+  "result": {
+    "success": true
+  }
+}
+```
 
 ----
 
