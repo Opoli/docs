@@ -381,6 +381,7 @@ POST /1.1/reservations
       "distance": 00.00000,
       "notes": "",
       "travelInsurance": 00.00
+      "getFee": 00.00
     },
     null
   ],
