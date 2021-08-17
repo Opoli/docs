@@ -1,4 +1,6 @@
-# Opoli API Documentation
+# holoholo API Documentation
+
+The main difference of holoholo from other RideShare PRO servers is the [Pricing Formula](#pricing-formula)
 
 ## Endpoint
 
