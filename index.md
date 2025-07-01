@@ -18,7 +18,7 @@ POST https://staging-gateway.opoli.com/1.1/auth/login
 ----
 
 ## Authentication
-To start using the Opoli API, the client application will have to first generate a device **token**.
+To start using the Prime Time Shuttle API, the client application will have to first generate a device **token**.
 
 ### Request
 
