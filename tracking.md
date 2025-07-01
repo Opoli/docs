@@ -1,4 +1,4 @@
-# Opoli Tracking API Documentation
+# Prime Time Shuttle Tracking API Documentation
 
 These are the base URLs where requests should be made. The routes indicated on each request should be appended to either of these URLs.
 
@@ -15,7 +15,7 @@ GET https://gateway.opoli.com/1.1/reservations
 ----
 
 ## Authentication
-The Opoli API endpoints necessary to track a reservation, is accessible using a `token` provided for each client application. It should be passed as a query to the `GET` endpoints below.
+The Prime Time Shuttle API endpoints necessary to track a reservation, is accessible using a `token` provided for each client application. It should be passed as a query to the `GET` endpoints below.
 
 ----
 
