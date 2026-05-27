@@ -12,7 +12,8 @@ The routes indicated on each request should be appended to either of these URLs.
 
 ## Endpoints
 
-### Reservation Information
+### MTech Webhook
+Send reservation updates to the Prime Time Shuttle system.
 ```
 POST /2.0/webhooks/mtech/<code>/<code>
 ```
